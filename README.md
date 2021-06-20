@@ -10,4 +10,4 @@ this exercise, the toll rate will be $0.25/km . Please use the file
 I used the netbeans IDE and a json library called `com.google.gson` which was developed by google. I chose this particular library after testing out others and concluding that this was the best because it is better documented and works with little unpredictability.
 
 ## Solution
-![Sequence diagram for Solution](https://raw.githubusercontent.com/Foyin/407-Cost-Tracker/main/costCalculator/src/costcalculator/Design%20Doc%202.png)
+![Sequence diagram for Solution](https://raw.githubusercontent.com/Foyin/407-Cost-Tracker/main/cost%20calculator%20doc.png)

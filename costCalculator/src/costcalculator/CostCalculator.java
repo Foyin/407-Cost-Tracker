@@ -44,22 +44,13 @@ public class CostCalculator {
                 }
                 
                 if(stop == 1){
-                    //System.out.println("key: "+ key.toString() + " value: " + keyvalue);
                     JsonArray routes = (JsonArray) index.get("routes");
                     JsonObject firstRoute = (JsonObject) routes.get(0);
-                    //Double firstRouteToID =  firstRoute.get("toId").getAsDouble();
                     float firstRouteDistance = firstRoute.get("distance").getAsFloat();
                     distanceBetweenStops += firstRouteDistance;
-                    //System.out.println(distanceBetweenStops);
                 }
 
                 if(stop == 2){    
-                    //JsonArray routes = (JsonArray) index.get("routes");
-                    //JsonObject firstRoute = (JsonObject) routes.get(1);
-                    //Double firstRouteToID =  firstRoute.get("toId").getAsDouble();
-                    //float firstRouteDistance = firstRoute.get("distance").getAsFloat();
-                    //distanceBetweenStops -= firstRouteDistance;
-                    //System.out.println(distanceBetweenStops);
                     break;
                 }
                    
